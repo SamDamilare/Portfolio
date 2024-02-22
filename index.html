@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Samuels</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="body">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid" mx-5>
+        <a class="navbar-brand" href="#">Samuels</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn btn-outline-success" type="submit">
+              Contact
+            </button>
+          </form>
+          <img
+            id="moonicon"
+            src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708549971/icons8-moon-man-48_mxsn9x.png"
+            width="32px"
+            alt="Moon"
+          />
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="herosection">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708453790/Portfolio/pp1_zmr86i.png"
+              class="mx-lg-auto img-fluid"
+              alt="profile picture"
+              width="300%"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">
+              Hello, I'm Samuel Akhagbokhai
+            </h1>
+            <p class="lead">
+              I'm a Graphic Designer and a Frontend Developer based in Ogun,
+              Nigeria. I strive to build beautiful and responsive web
+              applications through carefully crafted code and user-centric
+              design.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+                Say Hello
+              </button>
+            </div>
+            <div class="experience my-5">
+              <div class="expert">
+                <h3>4 Years</h3>
+                <p>Experience</p>
+              </div>
+              <div class="expert">
+                <h3>200+</h3>
+                <p>Projects Completed</p>
+              </div>
+              <div class="expert">
+                <h3>10</h3>
+                <p>Happy Clients</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+
+    <div class="container my-5">
+      <div
+        class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
+      >
+        <div class="about-picture col-lg-4 offset-lg-1 p-0 overflow-hidden">
+          <img
+            class="rounded-lg-3"
+            src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708453809/Portfolio/pp2_aqpyu2.png"
+            alt=""
+            width="360"
+          />
+          <div class="my-social-icons">
+            <!-- Replace the following placeholder icons with your actual social media icons -->
+            <a href="#"
+              ><img
+                src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708461942/Portfolio/icons8-linkedin-48_zvzsnl.png"
+                alt="Linkedin"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708462334/Portfolio/icons8-twitter-48_uepzfu.png"
+                alt="Twitter"
+            /></a>
+          </div>
+        </div>
+        <div class="about-text col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1">Looking for a professional?</h1>
+          <p class="lead">
+            As a designer and frontend developer, I specialize in crafting
+            sleek, contemporary websites, web applications, and e-commerce
+            platforms for clients. My focus lies in creating captivating digital
+            user interfaces that elevate the online experience.
+          </p>
+          <div
+            class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
+          >
+            <button
+              type="button"
+              class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"
+            >
+              My Project
+            </button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+              <img
+                src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708463791/Portfolio/icons8-scroll-down-48_1_idsror.png"
+                alt=""
+              />
+              Download CV
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Work Process -->
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div
+        class="work-process row flex-lg-row-reverse align-items-center g-5 py-5"
+      >
+        <div class="col-10 col-sm-8 col-lg-6 gy-3">
+          <div class="card">
+            <img
+              src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708494560/Portfolio/icons8-research-48_p08ocp.png"
+              alt=""
+            />
+            <h6>1. Research</h6>
+            <p>
+              I delve into thorough research to ensure every aspect of my
+              designs and websites is informed by the latest trends, user
+              preferences, and industry best practices.
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708495017/Portfolio/icons8-analysis-48_tcc9sa.png"
+              alt=""
+            />
+            <h6>2. Analysis</h6>
+            <p>
+              To create exceptional designs and websites, I employ a rigorous
+              analytical approach, dissecting user behavior, industry
+              benchmarks, and performance metrics.
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708495221/Portfolio/icons8-design-48_eghoy1.png"
+              alt=""
+            />
+            <h6>3. Design</h6>
+            <p>
+              I bring imagination to life through thoughtful and innovative
+              design concepts. Every pixel, color, and layout is meticulously
+              crafted to tell a compelling story and evoke meaningful
+              interactions.
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708495410/Portfolio/icons8-deploy-48_ddcvr4.png"
+              alt=""
+            />
+            <h6>4. Deployment</h6>
+            <p>
+              I bring imagination to life through thoughtful and innovative
+              design concepts. Every pixel, color, and layout is meticulously
+              crafted to tell a compelling story and evoke meaningful
+              interactions.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">Work Process</h1>
+          <p class="lead">
+            Through a meticulous blend of research, analysis, and innovative
+            design, I create captivating websites and digital experiences.
+            Beginning with in-depth research to understand user needs, I analyze
+            industry trends and performance metrics. This informs my design
+            process, where creativity meets strategy to produce visually
+            stunning and user-friendly interfaces. The result? Engaging websites
+            that resonate with audiences and deliver exceptional user
+            experiences.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Work Tools -->
+    <div class="work-tools">
+      <div class="wttext m-auto">
+        <h3>Work Tools</h3>
+        <p>
+          "Proficient in Photoshop, HTML, CSS, Bootstrap, JavaScript, and React,
+          I seamlessly blend creativity with technical expertise to craft
+          visually striking and responsive websites. From designing captivating
+          layouts in Photoshop to implementing dynamic functionalities with
+          JavaScript and React, my versatile skill set ensures a seamless user
+          experience across all devices."
+        </p>
+      </div>
+      <div class="worktoolsimg d-flex">
+        <img
+          src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708497083/Portfolio/icons8-photoshop-48_cotsxq.png"
+          alt="Photoshop"
+        />
+        <img
+          src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708496645/Portfolio/icons8-html-48_wiurzt.png"
+          alt="HTML"
+        />
+        <img
+          src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708496649/Portfolio/icons8-css-48_sodqiy.png"
+          alt="CSS"
+        />
+        <img
+          src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708496832/Portfolio/icons8-bootstrap-48_1_denzoc.png"
+          alt="Bootstrap"
+        />
+        <img
+          src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708519457/Portfolio/icons8-javascript-52_vsaytn.png"
+          alt="Javascript"
+          width="42px"
+          height="42px"
+        />
+        <img
+          src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708496769/Portfolio/icons8-react-native-48_gkbdp0.png"
+          alt="React"
+        />
+        <img
+          src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708536357/Portfolio/icons8-github-48_1_g2xxv5.png"
+          alt="Github"
+        />
+      </div>
+    </div>
+
+    <!-- My Portfolio -->
+
+    <!-- <div class="p-5">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708504741/Portfolio/Dwolla_nmfsuw.png"
+              class="d-block w-60"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Dwolla Project</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="..." class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708505558/Portfolio/Landingpage_oxli8d.png"
+              class="d-block w-60"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div> -->
+
+    <!-- Happy Clients -->
+    <div class="hc">
+      <div class="happy-clients m-auto">
+        <h3>Happy Clients</h3>
+        <p>
+          Thrilled clients are the heart of my work. I take pride in delivering
+          not just exceptional designs and websites, but also an unparalleled
+          client experience. Seeing my clients satisfied and successful is the
+          ultimate reward, and their happiness drives me to continuously strive
+          for excellence in every project.
+        </p>
+      </div>
+      <div class="happy-clientsimg d-flex">
+        <img
+          src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708509863/Portfolio/PVCN_e5xhyh.png"
+          width="100px"
+          alt="PVCN"
+        />
+        <img
+          src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708509859/Portfolio/ZHM_m6jd1y.png"
+          width="100px"
+          alt="ZHM"
+        />
+        <img
+          src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708509856/Portfolio/TWC_icpxkc.png"
+          width="100px"
+          alt="TWC"
+        />
+        <img
+          src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708509849/Portfolio/SDF_elxslt.png"
+          width="100px"
+          alt="SDF"
+        />
+        <img
+          src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708509850/Portfolio/Tega_oxv7v7.png"
+          width="100px"
+          alt="TEGA"
+        />
+      </div>
+    </div>
+
+    <!-- Contact Me -->
+    <div class="contactme container col-xl-10 col-xxl-8 px-4 py-5">
+      <div class="row align-items-center g-lg-5 py-5">
+        <div class="col-lg-7 text-left text-lg-start">
+          <h6 id="cmheader" class="display-6 fw-bold lh-1 mb-3">
+            Let's make your idea a reality
+          </h6>
+          <p class="cmtext" class="col-lg-10 fs-4">
+            I am here to bring your ideas to life, crafting innovative designs
+            and functional websites that resonate with your audience.
+          </p>
+          <div>
+            <div class="d-flex">
+              <img
+                src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708512598/Portfolio/icons8-location-48_hzxjsl.png"
+                width="48px"
+                height="48px"
+                alt="location"
+              />
+              <div class="details">
+                <p>Address<br />Arepo, Ogun State</p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <img
+                src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708512885/Portfolio/icons8-email-48_bmrivh.png"
+                width="48px"
+                height="48px"
+                alt="Email"
+              />
+              <div class="details">
+                <p>Email<br />samuel.akhagbokhai@gmail.com</p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <img
+                src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708512995/Portfolio/icons8-phone-48_il4hv0.png"
+                width="48px"
+                height="48px"
+                alt="Phone"
+              />
+              <div class="details">
+                <p>Phone <br />234 816 157 9558</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5">
+          <form class="p-4 p-md-5 border rounded-3 bg-light">
+            <div class="form-floating mb-3">
+              <input
+                type="name"
+                class="form-control"
+                id="floatingInput"
+                placeholder="abcdefghi jklmnok"
+              />
+              <label for="floatingInput">Name</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+              />
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="string"
+                class="form-control"
+                id="floatingInput"
+                placeholder="string"
+              />
+              <label for="floatingInput">Message</label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">
+              Submit
+              <img
+                src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708514532/Portfolio/icons8-send-48_basils.png"
+                width="24px"
+                alt="Send"
+              />
+            </button>
+            <hr class="my-4" />
+            <small class="text-muted"
+              >We will reach you as soon as possible.</small
+            >
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+      <hr />
+      <div><h3>Samuels</h3></div>
+      <div><p>Copyright © 2024 Picto.</p></div>
+      <div><a href="#" class="back-to-top">Back to Top</a></div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      let moonicon = document.getElementById("moonicon");
+      moonicon.onclick = function () {
+        document.body.classList.toggle("dark-theme");
+        if (document.body.classList.contains("dark-theme")) {
+          icon.src =
+            "https://res.cloudinary.com/dktrwqio1/image/upload/v1708549988/icons8-sun-48_khgjwq.png";
+        } else {
+          icon.src =
+            "https://res.cloudinary.com/dktrwqio1/image/upload/v1708549971/icons8-moon-man-48_mxsn9x.png";
+        }
+      };
+    </script>
+  </body>
+</html>
