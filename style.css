@@ -143,30 +143,37 @@ body {
 }
 
 .wttext {
-  width: 700px;
+  padding-right: 80px;
+  padding-left: 80px;
 }
 
 .wttext p {
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .happy-clients {
   font-family: poppins;
   text-align: center;
-  width: 700px;
-  padding: 20px;
+padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 50px;
+  font-size: 1em;
+  
 }
 
 .happy-clientsimg {
-  justify-content: space-evenly;
+  display: inline-block;
+  justify-content: center;
   border: 1px solid blue;
   border-radius: 5px;
   margin-left: 8%;
   margin-right: 8%;
 }
-/* .hc {
-  background: #132238c2;
-} */
+.hc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .contactme {
   font-family: poppins;
 }
