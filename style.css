@@ -207,5 +207,7 @@ padding-right: 100px;
 
 .footer_details{
   display: inline-block;
+  display: flex;
   justify-content: space-around;
+  
 }
