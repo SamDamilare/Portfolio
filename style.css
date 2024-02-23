@@ -21,6 +21,9 @@ body {
   color: var(--text-color);
 }
 
+.navbar{
+  font-family: poppins;
+}
 
 .h1 {
   font-size: 30px;
@@ -210,4 +213,27 @@ padding-right: 100px;
   display: flex;
   justify-content: space-around;
   
+}
+
+.my-portfolio{
+  padding: 30px;
+  text-align: center;
+margin-left: 8%;
+  margin-right: 8%;
+}
+
+.portcard{
+   margin-left: 8%;
+  margin-right: 8%;
+  font-family: poppins;
+ 
+  justify-content: center;
+  gap: 50px;
+  padding: 30px;
+}
+.cardcar{
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid #0078d4;
+  border-radius: 10px;
 }
