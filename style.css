@@ -198,3 +198,14 @@ padding-right: 100px;
   margin-left: 6%;
   margin-right: 6%;
 }
+
+.footer{
+  font-family: poppins;
+    margin-left: 6%;
+  margin-right: 6%;
+}
+
+.footer_details{
+  display: inline-block;
+  justify-content: space-around;
+}
