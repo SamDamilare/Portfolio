@@ -1,24 +1,59 @@
-const toggleSwitch = document.querySelector(
-  '.theme-switch input[type="checkbox"]'
-);
-const currentTheme = localStorage.getItem("theme");
+document.addEventListener("DOMContentLoaded", function () {
+  const counterElement = document.getElementById("years");
+  const targetNumber = 4;
+  const duration = 1500; // Animation duration in milliseconds
+  const interval = duration / targetNumber;
 
-if (currentTheme) {
-  document.documentElement.setAttribute("data-theme", currentTheme);
+  let count = 0;
 
-  if (currentTheme === "dark") {
-    toggleSwitch.checked = true;
-  }
-}
+  const incrementCounter = () => {
+    counterElement.textContent = count;
+    count++;
 
-function switchTheme(e) {
-  if (e.target.checked) {
-    document.documentElement.setAttribute("data-theme", "dark");
-    localStorage.setItem("theme", "dark");
-  } else {
-    document.documentElement.setAttribute("data-theme", "light");
-    localStorage.setItem("theme", "light");
-  }
-}
+    if (count <= targetNumber) {
+      setTimeout(incrementCounter, interval);
+    }
+  };
 
-toggleSwitch.addEventListener("change", switchTheme, false);
+  incrementCounter();
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const counterElement = document.getElementById("projects");
+  const targetNumber = 200;
+  const duration = 1500; // Animation duration in milliseconds
+  const interval = duration / targetNumber;
+
+  let count = 0;
+
+  const incrementCounter = () => {
+    counterElement.textContent = count;
+    count++;
+
+    if (count <= targetNumber) {
+      setTimeout(incrementCounter, interval);
+    }
+  };
+
+  incrementCounter();
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const counterElement = document.getElementById("Clientele");
+  const targetNumber = 10;
+  const duration = 1500; // Animation duration in milliseconds
+  const interval = duration / targetNumber;
+
+  let count = 0;
+
+  const incrementCounter = () => {
+    counterElement.textContent = count;
+    count++;
+
+    if (count <= targetNumber) {
+      setTimeout(incrementCounter, interval);
+    }
+  };
+
+  incrementCounter();
+});
