@@ -173,6 +173,8 @@ padding-right: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 .contactme {
   font-family: poppins;
@@ -190,4 +192,9 @@ padding-right: 100px;
 .details {
   padding: 5px;
   font-size: 14px;
+}
+
+#work-tools{
+  margin-left: 6%;
+  margin-right: 6%;
 }
