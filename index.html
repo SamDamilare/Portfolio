@@ -23,7 +23,7 @@
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
       <div class="container-fluid mx-5">
-        <a class="navbar-brand" href="#">Samuels</a>
+        <a class="navbar-brand" href="#"><h3>Samuels</h3></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -51,9 +51,11 @@
             </li>
           </ul>
           <form class="d-flex" role="search">
-            <button class="btn btn-outline-primary" type="submit">
-              Contact
-            </button>
+            <a href="#contactme"
+              ><button class="btn btn-outline-primary" type="submit">
+                Contact
+              </button></a
+            >
           </form>
           <img
             id="moonicon"
@@ -88,9 +90,14 @@
               design.
             </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
-                Say Hello
-              </button>
+              <a href="#contactme"
+                ><button
+                  type="button"
+                  class="btn btn-primary btn-lg px-4 me-md-2"
+                >
+                  Say Hello
+                </button></a
+              >
             </div>
             <div class="experience my-5">
               <div class="expert">
@@ -154,19 +161,28 @@
           <div
             class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
           >
-            <button
-              type="button"
-              class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"
+            <a href=""
+              ><button
+                type="button"
+                class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"
+              >
+                My Projects
+              </button></a
             >
-              My Project
-            </button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-              <img
-                src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708463791/Portfolio/icons8-scroll-down-48_1_idsror.png"
-                alt=""
-              />
-              Download CV
-            </button>
+            <a
+              href="https://docs.google.com/document/d/13GazNmD8MCT3tKymttre4V_zQUJwpDO3BWjdH_5uZCg/edit#heading=h.mihqaalpih50"
+            >
+              <button
+                type="button"
+                class="btn btn-outline-secondary btn-lg px-4"
+              >
+                <img
+                  src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708463791/Portfolio/icons8-scroll-down-48_1_idsror.png"
+                  alt=""
+                />
+                Download CV
+              </button></a
+            >
           </div>
         </div>
       </div>
@@ -376,6 +392,42 @@
         </button>
       </div>
     </div> -->
+    <div class="portcard d-flex align-items-top justify-content-center gx-5">
+      <div class="cardcar" style="width: 18rem">
+        <img
+          src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708504741/Portfolio/Dwolla_nmfsuw.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Dwolla</h5>
+          <p class="card-text">
+            We were required to replicate the Dwolla website. Here is mine
+          </p>
+          <a
+            href="https://samdamilare.github.io/Dwolla/"
+            class="btn btn-primary"
+            >Visit</a
+          >
+        </div>
+      </div>
+      <div class="cardcar" style="width: 18rem">
+        <img
+          src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708505558/Portfolio/Landingpage_oxli8d.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">UI Landing Page</h5>
+          <p class="card-text">This is my first bootstrap website.</p>
+          <a
+            href="https://samdamilare.github.io/frontendclass/"
+            class="btn btn-primary"
+            >Visit</a
+          >
+        </div>
+      </div>
+    </div>
 
     <!-- Happy Clients -->
     <div class="hc">
@@ -419,7 +471,10 @@
     </div>
 
     <!-- Contact Me -->
-    <div class="contactme container col-xl-10 col-xxl-8 px-4 py-5">
+    <div
+      class="contactme container col-xl-10 col-xxl-8 px-4 py-5"
+      id="contactme"
+    >
       <div class="row align-items-center g-lg-5 py-5">
         <div class="col-lg-7 text-left text-lg-start">
           <h6 id="cmheader" class="display-6 fw-bold lh-1 mb-3">
