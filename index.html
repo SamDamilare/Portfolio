@@ -21,7 +21,7 @@
   </head>
   <body class="body">
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
       <div class="container-fluid" mx-5>
         <a class="navbar-brand" href="#">Samuels</a>
         <button
@@ -82,7 +82,7 @@
               Hello, I'm Samuel Akhagbokhai
             </h1>
             <p class="lead">
-              I'm a Graphic Designer and a Frontend Developer based in Ogun,
+              I am a Graphic Designer and a Frontend Developer based in Ogun,
               Nigeria. I strive to build beautiful and responsive web
               applications through carefully crafted code and user-centric
               design.
@@ -94,15 +94,15 @@
             </div>
             <div class="experience my-5">
               <div class="expert">
-                <h3>4 Years</h3>
+                <h3><span id="years">4</span> Years</h3>
                 <p>Experience</p>
               </div>
               <div class="expert">
-                <h3>200+</h3>
+                <h3><span id="projects">200</span>+</h3>
                 <p>Projects Completed</p>
               </div>
               <div class="expert">
-                <h3>10</h3>
+                <h3><span id="Clientele">10</span></h3>
                 <p>Happy Clients</p>
               </div>
             </div>
@@ -242,7 +242,7 @@
     </div>
 
     <!-- Work Tools -->
-    <div class="work-tools">
+    <div class="work-tools" p-5>
       <div class="wttext m-auto">
         <h3>Work Tools</h3>
         <p>
@@ -254,7 +254,7 @@
           experience across all devices."
         </p>
       </div>
-      <div class="worktoolsimg d-flex">
+      <div class="worktoolsimg d-inline-block justify-content-center px-3">
         <img
           src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708497083/Portfolio/icons8-photoshop-48_cotsxq.png"
           alt="Photoshop"
@@ -374,8 +374,8 @@
 
     <!-- Happy Clients -->
     <div class="hc">
-      <div class="happy-clients m-auto">
-        <h3>Happy Clients</h3>
+      <div class="happy-clients">
+        <h3 class="">Happy Clients</h3>
         <p>
           Thrilled clients are the heart of my work. I take pride in delivering
           not just exceptional designs and websites, but also an unparalleled
@@ -384,7 +384,7 @@
           for excellence in every project.
         </p>
       </div>
-      <div class="happy-clientsimg d-flex">
+      <div class="happy-clientsimg m-auto px-3">
         <img
           src="https://res.cloudinary.com/dktrwqio1/image/upload/v1708509863/Portfolio/PVCN_e5xhyh.png"
           width="100px"
@@ -533,5 +533,6 @@
         }
       };
     </script>
+    <script src="script.js"></script>
   </body>
 </html>
